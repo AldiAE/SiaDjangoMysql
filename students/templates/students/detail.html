@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+<ul>
+    <li>{{ student.nama }}</li>
+    <li>{{ student.nim }}</li>
+    <li>{{ student.prodi }}</li>
+    <li>{{ student.angkatan }}</li>
+</ul>
+<a href="{% url 'students:index' %}">Kembali</a>
+</body>
+</html>
